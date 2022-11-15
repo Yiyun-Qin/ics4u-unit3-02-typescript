@@ -14,7 +14,7 @@ import promptSync from 'prompt-sync'
  * @returns {number} someInt * factorial(someInt - 1) The number -1
  */
 function factorial (someInt: number): number {
-  // This function reverse a string, suing recursion
+  // This function calculates the factorial using recursion
   if (someInt < 0) {
     return -1
   } else {
@@ -41,7 +41,7 @@ console.log('')
 if (isNaN(someInt)) {
   console.log('Invalid number!')
 } else if (someInt === 0) {
-  console.log("The factorial for 0! is 1")
+  console.log('The factorial for 0! is 1')
 } else {
   console.log(`The factorial for ${someInt}! is ${factorial(someInt)}`)
 }
